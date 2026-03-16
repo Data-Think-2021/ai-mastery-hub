@@ -70,7 +70,8 @@ const OfferCard = ({ icon: Icon, format, title, description, features, audiences
         </div>
         <a
           href="#contact"
-          className="inline-flex w-full items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-foreground text-background font-display font-semibold text-sm transition-colors hover:bg-foreground/90"
+          className="inline-flex w-full items-center justify-center gap-2 px-6 py-3.5 rounded-lg font-display font-semibold text-sm transition-all hover:opacity-90 text-primary-foreground"
+          style={{ background: "var(--gradient-primary)" }}
         >
           {cta}
         </a>
