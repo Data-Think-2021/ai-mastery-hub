@@ -25,7 +25,7 @@ const WhoIsFor = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ delay: i * 0.1, duration: 0.4, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
               className="flex items-start gap-4 p-6 rounded-xl border border-border bg-card"
             >
               <div className="p-2.5 bg-primary-soft text-primary rounded-lg shrink-0">
