@@ -34,7 +34,7 @@ const OfferCard = ({ icon: Icon, format, title, description, features, audiences
       className="p-8 border border-border bg-card rounded-xl shadow-sm flex flex-col gap-6 hover:border-primary transition-colors duration-300"
     >
       <div className="flex justify-between items-start">
-        <div className="p-3 bg-primary-soft text-primary rounded-lg">
+        <div className="p-3 bg-primary-soft text-accent rounded-lg">
           <Icon size={24} strokeWidth={2} />
         </div>
         <span className="text-xs font-medium uppercase tracking-widest text-muted-foreground font-mono">
