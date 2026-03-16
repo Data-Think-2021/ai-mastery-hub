@@ -53,7 +53,7 @@ const OfferCard = ({ icon: Icon, format, title, description, features, audiences
       <ul className="space-y-2.5">
         {features.map((f, i) => (
           <li key={i} className="text-sm flex gap-2.5 items-start text-foreground">
-            <Check size={16} className="text-primary mt-0.5 shrink-0" strokeWidth={2.5} />
+            <Check size={16} className="text-accent mt-0.5 shrink-0" strokeWidth={2.5} />
             <span>{f}</span>
           </li>
         ))}
