@@ -55,14 +55,15 @@ const HeroSection = () => {
         >
           <a
             href="#programs"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-foreground text-background font-display font-semibold text-base transition-colors hover:bg-foreground/90"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-display font-semibold text-base transition-all hover:opacity-90 text-primary-foreground"
+            style={{ background: "var(--gradient-primary)" }}
           >
             Start Learning AI
             <ArrowRight size={18} />
           </a>
           <a
             href="#programs"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border border-border bg-background font-display font-semibold text-base text-foreground transition-colors hover:bg-surface"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border border-border bg-card font-display font-semibold text-base text-foreground transition-colors hover:bg-secondary"
           >
             See All Programs
             <ChevronDown size={18} />

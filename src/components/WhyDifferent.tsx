@@ -37,7 +37,7 @@ const WhyDifferent = () => {
               variants={fadeUp}
               className={`p-8 ${i < points.length - 1 ? "lg:border-r lg:border-border" : ""}`}
             >
-              <span className="text-primary font-mono text-sm font-medium">{p.num}</span>
+              <span className="text-accent font-mono text-sm font-medium">{p.num}</span>
               <h3 className="text-lg font-display font-bold text-foreground mt-3 mb-3">{p.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{p.desc}</p>
             </motion.div>
