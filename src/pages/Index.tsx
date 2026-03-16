@@ -1,6 +1,5 @@
 import HeroSection from "@/components/HeroSection";
 import OffersGrid from "@/components/OffersGrid";
-import WhyDifferent from "@/components/WhyDifferent";
 import WhoIsFor from "@/components/WhoIsFor";
 import FinalCTA from "@/components/FinalCTA";
 
@@ -9,7 +8,6 @@ const Index = () => {
     <main>
       <HeroSection />
       <OffersGrid />
-      <WhyDifferent />
       <WhoIsFor />
       <FinalCTA />
     </main>
