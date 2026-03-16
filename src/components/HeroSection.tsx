@@ -21,7 +21,7 @@ const HeroSection = () => {
           variants={fadeUp}
           className="font-display font-bold tracking-tighter text-5xl md:text-7xl lg:text-8xl text-foreground text-balance leading-[0.95]"
         >
-          Master AI and Build Real Solutions — Even If You're Not Technical
+          Master AI and Build Real Solutions
         </motion.h1>
 
         <motion.p
