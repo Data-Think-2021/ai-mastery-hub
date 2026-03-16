@@ -54,6 +54,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        pink: "hsl(var(--pink))",
       },
       borderRadius: {
         xl: "0.75rem",
